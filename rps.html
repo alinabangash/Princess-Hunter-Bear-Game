@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Princess Hunter Bear Game</title>
+  <script src= "rps.js" defer></script>
+  <link rel="stylesheet" href="rps.css">
+  
+</head>
+<body>
+  <header>
+    <h1>Princess Hunter Bear!</h1>
+  </header>
+
+  <div class="scoreboard">
+    <div id="playerlabel" class="badge">player</div>
+    <div id="complabel" class="badge">computer</div>
+    <!-- span is same line element-->
+    <span id="playerscore">0</span>:<span id="compscore">0</span>
+  </div>
+
+  <div class="result">
+    <p>Game Rules: <br>Hunter beats Bear, Bear beats Princess, and Princess beats Hunter.<br>
+    </p>
+  </div>
+
+  <div class="choices">
+    <div class="choice" id="p">
+      <img src="princess.png" alt="">
+    </div>
+    <div class="choice" id="h">
+      <img src="hunter.png" alt="">
+    </div>
+    <div class="choice" id="b">
+      <img src="bear.png" alt="">
+    </div>
+  </div>
+
+  <p id= "mess" >Choose your character.</p>
+  
+</body>
+</html>
+
